@@ -1,0 +1,116 @@
+{
+  "title": "dbnotes",
+  "description": "databasenotes",
+  "author": "Amberwww",
+  "language": "zh-hans",
+  "root": ".",
+  "output": "docs",
+  
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md",
+    "glossary": "GLOSSARY.md"
+  },
+  
+  "plugins": [
+    "-lunr",
+    "-search",
+    "search-pro@^2.3.3",
+    "github@^2.0.0",
+    "github-buttons@^2.1.0",
+    "edit-link@^2.0.2",
+    "prism@^2.4.0",
+    "-highlight",
+    "copy-code-button@^0.0.2",
+    "splitter@^0.0.8",
+    "tbfed-pagefooter@^0.0.1",
+    "expandable-chapters-small@^0.1.7",
+    "anchor-navigation-ex@^1.0.8",
+    "favicon@^0.0.2",
+    "sitemap-general@^0.1.1"
+  ],
+  
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/dbnotes-cn/blog"
+    },
+    "github-buttons": {
+      "repo": "dbnotes-cn/blog",
+      "types": ["star", "watch", "fork"],
+      "size": "small"
+    },
+    "edit-link": {
+      "base": "https://github.com/dbnotes-cn/blog/edit/main",
+      "label": "编辑本页"
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-tomorrow.css"
+      ],
+      "lang": [
+        "bash",
+        "javascript",
+        "typescript",
+        "python",
+        "java",
+        "go",
+        "rust",
+        "css",
+        "html",
+        "json",
+        "yaml",
+        "markdown",
+        "sql"
+      ]
+    },
+    "tbfed-pagefooter": {
+      "copyright": "Copyright © Amberwww 2026",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "anchor-navigation-ex": {
+      "showLevel": true,
+      "associatedWithSummary": true,
+      "printLog": false,
+      "multipleH1": true,
+      "mode": "float",
+      "showGoTop": true,
+      "float": {
+        "floatIcon": "fa fa-navicon",
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+      },
+      "pageTop": {
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+      }
+    },
+    "favicon": {
+      "shortcut": "favicon.ico",
+      "bookmark": "favicon.ico"
+    },
+    "sitemap-general": {
+      "prefix": "https://dbnotes-cn.github.io/blog/"
+    },
+    "sharing": {
+      "facebook": false,
+      "twitter": false,
+      "google": false,
+      "weibo": true,
+      "instapaper": false,
+      "vk": false,
+      "all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+    }
+  },
+  
+  "links": {
+    "sidebar": {
+      "我的 GitHub": "https://github.com/dbnotes-cn",
+      "关于我": "https://dbnotes-cn.github.io"
+    }
+  }
+}
